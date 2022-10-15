@@ -5,9 +5,15 @@ import {useTelegram} from "../../hooks/useTelegram";
 import {useCallback, useEffect} from "react";
 
 const products = [
+<<<<<<< HEAD
+    {id: '1', title: 'Мазь', price: 1100, description: 'Синего цвета, прямые'},
+    {id: '2', title: 'Крем', price: 1800, description: 'Зеленого цвета, теплая'},
+    {id: '3', title: 'Сыворотка', price: 1500, description: 'Синего цвета, прямые'},
+=======
     {id: '1', title: 'Крем', price: 1000, description: 'Синего цвета, прямые'},
     {id: '2', title: 'Куртка', price: 12000, description: 'Зеленого цвета, теплая'},
     {id: '3', title: 'Джинсы 2', price: 5000, description: 'Синего цвета, прямые'},
+>>>>>>> 029765ce2d92777ca6c4b3f61d6907bcf9200bff
     {id: '4', title: 'Куртка 8', price: 122, description: 'Зеленого цвета, теплая'},
     {id: '5', title: 'Джинсы 3', price: 5000, description: 'Синего цвета, прямые'},
     {id: '6', title: 'Куртка 7', price: 600, description: 'Зеленого цвета, теплая'},
